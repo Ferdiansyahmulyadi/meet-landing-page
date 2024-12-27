@@ -639,7 +639,6 @@ footer {
       flex-direction: column;
       align-items: center;
       padding: 0;
-      border: 1px solid red;
 
       .footer-bg-image {
         width: 100%;
@@ -649,7 +648,6 @@ footer {
         padding: 0;
         margin-top: rem-calc(-29);
         z-index: -1;
-        border: 1px solid green;
 
         .footer-bg-color {
           width: 100%;
@@ -659,7 +657,6 @@ footer {
           background-color: get-color('cyan', '600');
           opacity: 0.85;
           padding: rem-calc(112) rem-calc(80);
-          border: 1px solid blue;
 
           .footer-cta {
             width: rem-calc(1120);
@@ -668,14 +665,12 @@ footer {
             align-items: center;
             gap: rem-calc(64);
             padding: 0;
-            border: 1px solid yellow;
 
             .footer-h2 {
               width: 80%;
               @include typography('text-preset-2-red-hat-display-black');
               color: get-color('white', 'white');
               text-align: left;
-              border: 1px solid pink;
             }
 
             .footer-text {
