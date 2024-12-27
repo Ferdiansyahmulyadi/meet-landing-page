@@ -1,0 +1,26 @@
+@use '../functions' as *;
+@use '../variables' as *;
+@use 'sass:map';
+
+//prettier-ignore
+$text-presets: (
+  'text-preset-1-red-hat-display-black': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(65), 'line-height': 110%, 'letter-spacing': 0px),
+  'text-preset-1-red-hat-display-black-desktop': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(55), 'line-height': 110%, 'letter-spacing': 0px),
+  'text-preset-1-red-hat-display-black-mobile': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(43), 'line-height': 110%, 'letter-spacing': 0px),
+  'text-preset-2-red-hat-display-black': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(48), 'line-height': 110%, 'letter-spacing': 0px),
+  'text-preset-2-red-hat-display-black-mobile': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(34), 'line-height': 110%, 'letter-spacing': 0px),
+  'text-preset-3-red-hat-display-black': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(16), 'line-height': 110%, 'letter-spacing': rem-calc(4)),
+  'text-preset-3-red-hat-display-black-mobile': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(12), 'line-height': 110%, 'letter-spacing': rem-calc(4)),
+  'text-preset-4-red-hat-display-medium': ('font-family': "Red Hat Display", 'font-weight': 500, 'font-size': rem-calc(18), 'line-height': 110%, 'letter-spacing': 0px),
+  'text-preset-4-red-hat-display-medium-mobile': ('font-family': "Red Hat Display", 'font-weight': 500, 'font-size': rem-calc(16), 'line-height': 150%, 'letter-spacing': 0px),
+  'text-preset-5-red-hat-display-black': ('font-family': "Red Hat Display", 'font-weight': 900, 'font-size': rem-calc(16), 'line-height': 150%, 'letter-spacing': 0px),
+);
+
+@mixin typography($text-preset) {
+  $preset: map.get($text-presets, $text-preset);
+  font-family: map.get($preset, 'font-family');
+  font-weight: map.get($preset, 'font-weight');
+  font-size: map.get($preset, 'font-size');
+  line-height: map.get($preset, 'line-height');
+  letter-spacing: map.get($preset, 'letter-spacing');
+}
