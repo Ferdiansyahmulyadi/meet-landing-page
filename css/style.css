@@ -314,7 +314,7 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   text-align: center;
 }
 
-.section .container {
+.feature-section .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,7 +324,7 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.section .container .page-number {
+.feature-section .container .page-number {
   width: 3.5rem;
   height: 8.5rem;
   display: flex;
@@ -334,12 +334,12 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   gap: 0;
   padding: 0;
 }
-.section .container .page-number .line {
+.feature-section .container .page-number .line {
   width: 1px;
   height: 5rem;
   background-color: #d1d1df;
 }
-.section .container .page-number .circle {
+.feature-section .container .page-number .circle {
   width: 3.5rem;
   height: 3.5rem;
   display: flex;
@@ -351,7 +351,7 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   background-color: #fafafa;
   border: 1px solid #d1d1df;
 }
-.section .container .page-number .circle .number {
+.feature-section .container .page-number .circle .number {
   font-family: "Red Hat Display";
   font-weight: 900;
   font-size: 1rem;
@@ -359,7 +359,7 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   letter-spacing: 0px;
   color: #87879d;
 }
-.section .container .picture-flexbox {
+.feature-section .container .picture-flexbox {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -368,27 +368,27 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   padding: 0;
   background-color: #ffffff;
 }
-.section .container .picture-flexbox .feature-promo-picture {
+.feature-section .container .picture-flexbox .feature-promo-picture {
   width: 9.125rem;
   height: 9.125rem;
   border-radius: 0.5rem;
   border: 0px solid #979797;
 }
-.section .container .feature-section-description {
+.feature-section .container .feature-section-description {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   padding: 0;
 }
-.section .container .feature-section-description .feature-headline {
+.feature-section .container .feature-section-description .feature-headline {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   padding: 0;
 }
-.section .container .feature-section-description .feature-headline .feature-promo-title {
+.feature-section .container .feature-section-description .feature-headline .feature-promo-title {
   font-family: "Red Hat Display";
   font-weight: 900;
   font-size: 0.75rem;
@@ -398,7 +398,7 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   text-align: center;
   text-transform: uppercase;
 }
-.section .container .feature-section-description .feature-headline .feature-promo-h2 {
+.feature-section .container .feature-section-description .feature-headline .feature-promo-h2 {
   font-family: "Red Hat Display";
   font-weight: 900;
   font-size: 2.125rem;
@@ -407,7 +407,7 @@ main .container .main-intro-flexbox .main-cta .what-is-it .what-is-it-text {
   color: #28283d;
   text-align: center;
 }
-.section .container .feature-section-description p {
+.feature-section .container .feature-section-description p {
   font-family: "Red Hat Display";
   font-weight: 500;
   font-size: 1rem;
@@ -627,20 +627,20 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     color: #fafafa;
     text-align: center;
   }
-  .section .container {
+  .feature-section .container {
     gap: 4rem;
     padding-top: 3.5rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .section .container .feature-section-description {
+  .feature-section .container .feature-section-description {
     width: 31.5rem;
     height: 13.4375rem;
     margin-left: 5.5rem;
     margin-right: 5.5rem;
   }
-  .section .container .feature-section-description .feature-headline .feature-promo-title {
+  .feature-section .container .feature-section-description .feature-headline .feature-promo-title {
     font-family: "Red Hat Display";
     font-weight: 900;
     font-size: 0.75rem;
@@ -650,7 +650,7 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     text-align: center;
     text-transform: uppercase;
   }
-  .section .container .feature-section-description .feature-headline .feature-promo-h2 {
+  .feature-section .container .feature-section-description .feature-headline .feature-promo-h2 {
     font-family: "Red Hat Display";
     font-weight: 900;
     font-size: 2.125rem;
@@ -659,7 +659,7 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     color: #28283d;
     text-align: center;
   }
-  .section .container .feature-section-description p {
+  .feature-section .container .feature-section-description p {
     font-family: "Red Hat Display";
     font-weight: 500;
     font-size: 1rem;
@@ -737,7 +737,7 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     color: #87879d;
     text-align: center;
   }
-  .section .container {
+  .feature-section .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -747,7 +747,7 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     padding-left: 5rem;
     padding-right: 5rem;
   }
-  .section .container .picture-flexbox {
+  .feature-section .container .picture-flexbox {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -756,13 +756,13 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     padding: 0;
     background-color: #ffffff;
   }
-  .section .container .picture-flexbox .feature-promo-picture {
+  .feature-section .container .picture-flexbox .feature-promo-picture {
     width: 16rem;
     height: 16rem;
     border-radius: 0.5rem;
     border: 0px solid #979797;
   }
-  .section .container .feature-section-description {
+  .feature-section .container .feature-section-description {
     width: 34rem;
     height: 14.6875rem;
     display: flex;
@@ -771,14 +771,14 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     gap: 2rem;
     padding: 0;
   }
-  .section .container .feature-section-description .feature-headline {
+  .feature-section .container .feature-section-description .feature-headline {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     padding: 0;
   }
-  .section .container .feature-section-description .feature-headline .feature-promo-title {
+  .feature-section .container .feature-section-description .feature-headline .feature-promo-title {
     font-family: "Red Hat Display";
     font-weight: 900;
     font-size: 1rem;
@@ -788,7 +788,7 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     text-align: center;
     text-transform: uppercase;
   }
-  .section .container .feature-section-description .feature-headline .feature-promo-h2 {
+  .feature-section .container .feature-section-description .feature-headline .feature-promo-h2 {
     font-family: "Red Hat Display";
     font-weight: 900;
     font-size: 3rem;
@@ -797,7 +797,7 @@ footer .container .footer-bg-image .footer-bg-color .footer-cta .download.footer
     color: #28283d;
     text-align: center;
   }
-  .section .container .feature-section-description p {
+  .feature-section .container .feature-section-description p {
     font-family: "Red Hat Display";
     font-weight: 500;
     font-size: 1.125rem;
